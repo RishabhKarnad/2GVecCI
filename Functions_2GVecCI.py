@@ -7,7 +7,9 @@ from sklearn import linear_model
 import copy
 from tigramite import data_processing as pp
 from tigramite.pcmci import PCMCI
-from tigramite.independence_tests import ParCorr, GPDCtorch, CMIknn
+from tigramite.independence_tests.parcorr import ParCorr
+from tigramite.independence_tests.gpdc_torch import GPDCtorch
+from tigramite.independence_tests.cmiknn import CMIknn
 import time
 import itertools
 import os
@@ -178,10 +180,10 @@ def regression(X,Y,fit_intercept=False):
     dict = {}
     reg_X_to_Y = sklearn.linear_model.LinearRegression(fit_intercept=False)
     reg_Y_to_X = sklearn.linear_model.LinearRegression(fit_intercept=False)
-    reg_X_to_Y.fit(X.values,Y.values)
-    reg_Y_to_X.fit(Y.values,X.values)
-    reg_X_to_Y.residuals = pp.DataFrame((Y.values - reg_X_to_Y.predict(X.values)), var_names=Y.var_names)
-    reg_Y_to_X.residuals = pp.DataFrame((X.values - reg_Y_to_X.predict(Y.values)), var_names=X.var_names)
+    reg_X_to_Y.fit(X.values[0],Y.values[0])
+    reg_Y_to_X.fit(Y.values[0],X.values[0])
+    reg_X_to_Y.residuals = pp.DataFrame((Y.values[0] - reg_X_to_Y.predict(X.values[0])), var_names=Y.var_names)
+    reg_Y_to_X.residuals = pp.DataFrame((X.values[0] - reg_Y_to_X.predict(Y.values[0])), var_names=X.var_names)
     dict['X_to_Y'] = reg_X_to_Y
     dict['Y_to_X'] = reg_Y_to_X
     return dict
@@ -363,12 +365,12 @@ def full_conditioning_ind_test(X, Y, alpha=0.01, type='both', CI_test_method='Pa
                 max_edgenumberX = len(X.var_names) * (len(X.var_names) - 1) / 2
                 for var1 in range(len(Y.var_names)):
                     for var2 in range(var1 + 1, len(Y.var_names)):
-                        removedY = np.delete(Y.values, (var1, var2), 1)
-                        valY, pvalY = CI_test.run_test_raw(Y.values[:, var1:var1 + 1], Y.values[:, var2:var2 + 1], z=removedY)
+                        removedY = np.delete(Y.values[0], (var1, var2), 1)
+                        valY, pvalY = CI_test.run_test_raw(Y.values[0][:, var1:var1 + 1], Y.values[0][:, var2:var2 + 1], z=removedY)
                         if pvalY < alpha:
                             edgecounterY += 1
-                        removedResY = np.delete(residualsY, (var1, var2), 1)
-                        valResY, pvalResY = CI_test.run_test_raw(residualsY[:, var1:var1 + 1], residualsY[:, var2:var2 + 1],
+                        removedResY = np.delete(residualsY[0], (var1, var2), 1)
+                        valResY, pvalResY = CI_test.run_test_raw(residualsY[0][:, var1:var1 + 1], residualsY[0][:, var2:var2 + 1],
                                                                  z=removedResY)
                         if pvalResY < alpha:
                             edgecounterResY += 1
@@ -383,12 +385,12 @@ def full_conditioning_ind_test(X, Y, alpha=0.01, type='both', CI_test_method='Pa
                 edgecounterResX = 0
                 for var1 in range(len(X.var_names)):
                     for var2 in range(var1 + 1, len(X.var_names)):
-                        removedX = np.delete(X.values, (var1, var2), 1)
-                        valX, pvalX = CI_test.run_test_raw(X.values[:, var1:var1 + 1], X.values[:, var2:var2 + 1], z=removedX)
+                        removedX = np.delete(X.values[0], (var1, var2), 1)
+                        valX, pvalX = CI_test.run_test_raw(X.values[0][:, var1:var1 + 1], X.values[0][:, var2:var2 + 1], z=removedX)
                         if pvalX < alpha:
                             edgecounterX += 1
-                        removedResX = np.delete(residualsX, (var1, var2), 1)
-                        valResX, pvalResX = CI_test.run_test_raw(residualsX[:, var1:var1 + 1], residualsX[:, var2:var2 + 1],
+                        removedResX = np.delete(residualsX[0], (var1, var2), 1)
+                        valResX, pvalResX = CI_test.run_test_raw(residualsX[0][:, var1:var1 + 1], residualsX[0][:, var2:var2 + 1],
                                                                  z=removedResX)
                         if pvalResX < alpha:
                             edgecounterResX += 1
@@ -671,8 +673,8 @@ def edge_count(graph):
 def trace_method(X,Y):
     ##implementation of the trace method of (Janzing et al, 2010, Telling cause from effect based on high- dimensional observations).
     # Returns delta values as defined in the paper.
-    Xt = X.values.T
-    Yt = Y.values.T
+    Xt = X.values[0].T
+    Yt = Y.values[0].T
     CovX = np.cov(Xt)
     CovY = np.cov(Yt)
     XandY = np.concatenate((Xt, Yt), axis=0)

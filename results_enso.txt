@@ -1,0 +1,212 @@
+1 2 2 2
+1 2 2 3
+1 2 2 4
+1 2 3 2
+1 2 3 3
+1 2 3 4
+1 2 4 2
+1 2 4 3
+1 2 4 4
+2 2 2 2
+(74, 33) (75, 36)
+(74, 33) (74, 36)
+0.16690115440115433 ('X is the cause of Y', -0.4034090909090909, -0.23650793650793656, {'number of nodes Y': 36, ' max number of edges Y': 630.0, 'number of edges Y': 196, 'number of edges Res Y': 345, 'edge density of Y': 0.3111111111111111, 'edge density of Res Y': 0.5476190476190477, 'number of nodes X': 33, ' max number of edges X': 528.0, 'number of edges X': 57, 'number of edges Res X': 270, 'edge density of X': 0.10795454545454546, 'edge density of Res X': 0.5113636363636364, 'tested regions': 'both'})
+2 2 2 3
+(74, 33) (75, 24)
+(74, 33) (74, 24)
+0.02124505928853751 ('X is the cause of Y', -0.15530303030303028, -0.13405797101449277, {'number of nodes Y': 24, ' max number of edges Y': 276.0, 'number of edges Y': 33, 'number of edges Res Y': 70, 'edge density of Y': 0.11956521739130435, 'edge density of Res Y': 0.2536231884057971, 'number of nodes X': 33, ' max number of edges X': 528.0, 'number of edges X': 57, 'number of edges Res X': 139, 'edge density of X': 0.10795454545454546, 'edge density of Res X': 0.26325757575757575, 'tested regions': 'both'})
+2 2 2 4
+2 2 3 2
+(74, 33) (75, 27)
+(74, 33) (74, 27)
+0.17684861434861432 ('X is the cause of Y', -0.25946969696969696, -0.08262108262108264, {'number of nodes Y': 27, ' max number of edges Y': 351.0, 'number of edges Y': 79, 'number of edges Res Y': 108, 'edge density of Y': 0.22507122507122507, 'edge density of Res Y': 0.3076923076923077, 'number of nodes X': 33, ' max number of edges X': 528.0, 'number of edges X': 57, 'number of edges Res X': 194, 'edge density of X': 0.10795454545454546, 'edge density of Res X': 0.36742424242424243, 'tested regions': 'both'})
+2 2 3 3
+2 2 3 4
+2 2 4 2
+2 2 4 3
+2 2 4 4
+3 2 2 2
+3 2 2 3
+(74, 22) (75, 24)
+(74, 22) (74, 24)
+-0.0515245623941276 ('Y is the cause of X', -0.017316017316017326, -0.06884057971014493, {'number of nodes Y': 24, ' max number of edges Y': 276.0, 'number of edges Y': 33, 'number of edges Res Y': 52, 'edge density of Y': 0.11956521739130435, 'edge density of Res Y': 0.18840579710144928, 'number of nodes X': 22, ' max number of edges X': 231.0, 'number of edges X': 27, 'number of edges Res X': 31, 'edge density of X': 0.11688311688311688, 'edge density of Res X': 0.1341991341991342, 'tested regions': 'both'})
+3 2 2 4
+(74, 22) (75, 20)
+(74, 22) (74, 20)
+-0.0012759170653907498 ('Causal direction can not be inferred', -0.030303030303030318, -0.03157894736842107, {'number of nodes Y': 20, ' max number of edges Y': 190.0, 'number of edges Y': 35, 'number of edges Res Y': 41, 'edge density of Y': 0.18421052631578946, 'edge density of Res Y': 0.21578947368421053, 'number of nodes X': 22, ' max number of edges X': 231.0, 'number of edges X': 27, 'number of edges Res X': 34, 'edge density of X': 0.11688311688311688, 'edge density of Res X': 0.1471861471861472, 'tested regions': 'both'})
+3 2 3 2
+(74, 22) (75, 27)
+(74, 22) (74, 27)
+0.06482406482406482 ('X is the cause of Y', -0.05627705627705627, 0.008547008547008544, {'number of nodes Y': 27, ' max number of edges Y': 351.0, 'number of edges Y': 79, 'number of edges Res Y': 76, 'edge density of Y': 0.22507122507122507, 'edge density of Res Y': 0.21652421652421652, 'number of nodes X': 22, ' max number of edges X': 231.0, 'number of edges X': 27, 'number of edges Res X': 40, 'edge density of X': 0.11688311688311688, 'edge density of Res X': 0.17316017316017315, 'tested regions': 'both'})
+3 2 3 3
+(74, 22) (75, 18)
+(74, 22) (74, 18)
+-0.04795857737034208 ('Y is the cause of X', -0.004329004329004335, -0.052287581699346414, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 19, 'number of edges Res Y': 27, 'edge density of Y': 0.12418300653594772, 'edge density of Res Y': 0.17647058823529413, 'number of nodes X': 22, ' max number of edges X': 231.0, 'number of edges X': 27, 'number of edges Res X': 28, 'edge density of X': 0.11688311688311688, 'edge density of Res X': 0.12121212121212122, 'tested regions': 'both'})
+3 2 3 4
+(74, 22) (75, 15)
+(74, 22) (74, 15)
+-0.07186147186147183 ('Y is the cause of X', -0.004329004329004335, -0.07619047619047617, {'number of nodes Y': 15, ' max number of edges Y': 105.0, 'number of edges Y': 16, 'number of edges Res Y': 24, 'edge density of Y': 0.1523809523809524, 'edge density of Res Y': 0.22857142857142856, 'number of nodes X': 22, ' max number of edges X': 231.0, 'number of edges X': 27, 'number of edges Res X': 28, 'edge density of X': 0.11688311688311688, 'edge density of Res X': 0.12121212121212122, 'tested regions': 'both'})
+3 2 4 2
+(74, 22) (75, 18)
+(74, 22) (74, 18)
+-0.07851625498684324 ('Y is the cause of X', -0.012987012987012977, -0.09150326797385622, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 53, 'number of edges Res Y': 67, 'edge density of Y': 0.3464052287581699, 'edge density of Res Y': 0.43790849673202614, 'number of nodes X': 22, ' max number of edges X': 231.0, 'number of edges X': 27, 'number of edges Res X': 30, 'edge density of X': 0.11688311688311688, 'edge density of Res X': 0.12987012987012986, 'tested regions': 'both'})
+3 2 4 3
+3 2 4 4
+1 3 2 2
+(74, 35) (75, 36)
+(74, 35) (74, 36)
+0.17945845004668537 ('X is the cause of Y', -0.5159663865546219, -0.33650793650793653, {'number of nodes Y': 36, ' max number of edges Y': 630.0, 'number of edges Y': 196, 'number of edges Res Y': 408, 'edge density of Y': 0.3111111111111111, 'edge density of Res Y': 0.6476190476190476, 'number of nodes X': 35, ' max number of edges X': 595.0, 'number of edges X': 57, 'number of edges Res X': 364, 'edge density of X': 0.0957983193277311, 'edge density of Res X': 0.611764705882353, 'tested regions': 'both'})
+1 3 2 3
+1 3 2 4
+1 3 3 2
+(74, 35) (75, 27)
+(74, 35) (74, 27)
+0.14271349565467215 ('X is the cause of Y', -0.1512605042016807, -0.008547008547008544, {'number of nodes Y': 27, ' max number of edges Y': 351.0, 'number of edges Y': 79, 'number of edges Res Y': 82, 'edge density of Y': 0.22507122507122507, 'edge density of Res Y': 0.2336182336182336, 'number of nodes X': 35, ' max number of edges X': 595.0, 'number of edges X': 57, 'number of edges Res X': 147, 'edge density of X': 0.0957983193277311, 'edge density of Res X': 0.24705882352941178, 'tested regions': 'both'})
+1 3 3 3
+1 3 3 4
+1 3 4 2
+1 3 4 3
+1 3 4 4
+2 3 2 2
+2 3 2 3
+(74, 21) (75, 24)
+(74, 21) (74, 24)
+0.02432712215320912 ('X is the cause of Y', -0.07142857142857142, -0.047101449275362306, {'number of nodes Y': 24, ' max number of edges Y': 276.0, 'number of edges Y': 33, 'number of edges Res Y': 46, 'edge density of Y': 0.11956521739130435, 'edge density of Res Y': 0.16666666666666666, 'number of nodes X': 21, ' max number of edges X': 210.0, 'number of edges X': 31, 'number of edges Res X': 46, 'edge density of X': 0.14761904761904762, 'edge density of Res X': 0.21904761904761905, 'tested regions': 'both'})
+2 3 2 4
+(74, 21) (75, 20)
+(74, 21) (74, 20)
+0.030827067669172925 ('X is the cause of Y', -0.057142857142857134, -0.02631578947368421, {'number of nodes Y': 20, ' max number of edges Y': 190.0, 'number of edges Y': 35, 'number of edges Res Y': 40, 'edge density of Y': 0.18421052631578946, 'edge density of Res Y': 0.21052631578947367, 'number of nodes X': 21, ' max number of edges X': 210.0, 'number of edges X': 31, 'number of edges Res X': 43, 'edge density of X': 0.14761904761904762, 'edge density of Res X': 0.20476190476190476, 'tested regions': 'both'})
+2 3 3 2
+(74, 21) (75, 27)
+(74, 21) (74, 27)
+0.10472120472120469 ('X is the cause of Y', -0.09047619047619046, 0.014245014245014231, {'number of nodes Y': 27, ' max number of edges Y': 351.0, 'number of edges Y': 79, 'number of edges Res Y': 74, 'edge density of Y': 0.22507122507122507, 'edge density of Res Y': 0.21082621082621084, 'number of nodes X': 21, ' max number of edges X': 210.0, 'number of edges X': 31, 'number of edges Res X': 50, 'edge density of X': 0.14761904761904762, 'edge density of Res X': 0.23809523809523808, 'tested regions': 'both'})
+2 3 3 3
+(74, 21) (75, 18)
+(74, 21) (74, 18)
+-0.008216619981325862 ('Causal direction can not be inferred', -0.057142857142857134, -0.065359477124183, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 19, 'number of edges Res Y': 29, 'edge density of Y': 0.12418300653594772, 'edge density of Res Y': 0.1895424836601307, 'number of nodes X': 21, ' max number of edges X': 210.0, 'number of edges X': 31, 'number of edges Res X': 43, 'edge density of X': 0.14761904761904762, 'edge density of Res X': 0.20476190476190476, 'tested regions': 'both'})
+2 3 3 4
+(74, 21) (75, 15)
+(74, 21) (74, 15)
+-0.019047619047619035 ('Y is the cause of X', -0.0380952380952381, -0.057142857142857134, {'number of nodes Y': 15, ' max number of edges Y': 105.0, 'number of edges Y': 16, 'number of edges Res Y': 22, 'edge density of Y': 0.1523809523809524, 'edge density of Res Y': 0.20952380952380953, 'number of nodes X': 21, ' max number of edges X': 210.0, 'number of edges X': 31, 'number of edges Res X': 39, 'edge density of X': 0.14761904761904762, 'edge density of Res X': 0.18571428571428572, 'tested regions': 'both'})
+2 3 4 2
+(74, 21) (75, 18)
+(74, 21) (74, 18)
+0.02623716153127917 ('X is the cause of Y', -0.05238095238095239, -0.02614379084967322, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 53, 'number of edges Res Y': 57, 'edge density of Y': 0.3464052287581699, 'edge density of Res Y': 0.37254901960784315, 'number of nodes X': 21, ' max number of edges X': 210.0, 'number of edges X': 31, 'number of edges Res X': 42, 'edge density of X': 0.14761904761904762, 'edge density of Res X': 0.2, 'tested regions': 'both'})
+2 3 4 3
+(74, 21) (75, 12)
+(74, 21) (74, 12)
+-0.02164502164502166 ('Y is the cause of X', -0.023809523809523808, -0.04545454545454547, {'number of nodes Y': 12, ' max number of edges Y': 66.0, 'number of edges Y': 11, 'number of edges Res Y': 14, 'edge density of Y': 0.16666666666666666, 'edge density of Res Y': 0.21212121212121213, 'number of nodes X': 21, ' max number of edges X': 210.0, 'number of edges X': 31, 'number of edges Res X': 36, 'edge density of X': 0.14761904761904762, 'edge density of Res X': 0.17142857142857143, 'tested regions': 'both'})
+2 3 4 4
+3 3 2 2
+3 3 2 3
+3 3 2 4
+(74, 14) (75, 20)
+(74, 14) (74, 20)
+-0.015326778484673204 ('Y is the cause of X', -0.010989010989011005, -0.02631578947368421, {'number of nodes Y': 20, ' max number of edges Y': 190.0, 'number of edges Y': 35, 'number of edges Res Y': 40, 'edge density of Y': 0.18421052631578946, 'edge density of Res Y': 0.21052631578947367, 'number of nodes X': 14, ' max number of edges X': 91.0, 'number of edges X': 13, 'number of edges Res X': 14, 'edge density of X': 0.14285714285714285, 'edge density of Res X': 0.15384615384615385, 'tested regions': 'both'})
+3 3 3 2
+3 3 3 3
+(74, 14) (75, 18)
+(74, 14) (74, 18)
+-0.01278460101989512 ('Y is the cause of X', -0.03296703296703299, -0.04575163398692811, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 19, 'number of edges Res Y': 26, 'edge density of Y': 0.12418300653594772, 'edge density of Res Y': 0.16993464052287582, 'number of nodes X': 14, ' max number of edges X': 91.0, 'number of edges X': 13, 'number of edges Res X': 16, 'edge density of X': 0.14285714285714285, 'edge density of Res X': 0.17582417582417584, 'tested regions': 'both'})
+3 3 3 4
+(74, 14) (75, 15)
+(74, 14) (74, 15)
+0.0029304029304029477 ('Causal direction can not be inferred', -0.021978021978021983, -0.019047619047619035, {'number of nodes Y': 15, ' max number of edges Y': 105.0, 'number of edges Y': 16, 'number of edges Res Y': 18, 'edge density of Y': 0.1523809523809524, 'edge density of Res Y': 0.17142857142857143, 'number of nodes X': 14, ' max number of edges X': 91.0, 'number of edges X': 13, 'number of edges Res X': 15, 'edge density of X': 0.14285714285714285, 'edge density of Res X': 0.16483516483516483, 'tested regions': 'both'})
+3 3 4 2
+(74, 14) (75, 18)
+(74, 14) (74, 18)
+0.055232349349996435 ('X is the cause of Y', -0.08791208791208793, -0.0326797385620915, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 53, 'number of edges Res Y': 58, 'edge density of Y': 0.3464052287581699, 'edge density of Res Y': 0.3790849673202614, 'number of nodes X': 14, ' max number of edges X': 91.0, 'number of edges X': 13, 'number of edges Res X': 21, 'edge density of X': 0.14285714285714285, 'edge density of Res X': 0.23076923076923078, 'tested regions': 'both'})
+3 3 4 3
+(74, 14) (75, 12)
+(74, 14) (74, 12)
+-0.0193140193140193 ('Y is the cause of X', -0.010989010989011005, -0.030303030303030304, {'number of nodes Y': 12, ' max number of edges Y': 66.0, 'number of edges Y': 11, 'number of edges Res Y': 13, 'edge density of Y': 0.16666666666666666, 'edge density of Res Y': 0.19696969696969696, 'number of nodes X': 14, ' max number of edges X': 91.0, 'number of edges X': 13, 'number of edges Res X': 14, 'edge density of X': 0.14285714285714285, 'edge density of Res X': 0.15384615384615385, 'tested regions': 'both'})
+3 3 4 4
+(74, 14) (75, 10)
+(74, 14) (74, 10)
+0.0222222222222222 ('X is the cause of Y', 0.0, 0.0222222222222222, {'number of nodes Y': 10, ' max number of edges Y': 45.0, 'number of edges Y': 10, 'number of edges Res Y': 9, 'edge density of Y': 0.2222222222222222, 'edge density of Res Y': 0.2, 'number of nodes X': 14, ' max number of edges X': 91.0, 'number of edges X': 13, 'number of edges Res X': 13, 'edge density of X': 0.14285714285714285, 'edge density of Res X': 0.14285714285714285, 'tested regions': 'both'})
+1 4 2 2
+(74, 30) (75, 36)
+(74, 30) (74, 36)
+0.032348111658456524 ('X is the cause of Y', -0.2942528735632184, -0.26190476190476186, {'number of nodes Y': 36, ' max number of edges Y': 630.0, 'number of edges Y': 196, 'number of edges Res Y': 361, 'edge density of Y': 0.3111111111111111, 'edge density of Res Y': 0.573015873015873, 'number of nodes X': 30, ' max number of edges X': 435.0, 'number of edges X': 56, 'number of edges Res X': 184, 'edge density of X': 0.12873563218390804, 'edge density of Res X': 0.42298850574712643, 'tested regions': 'both'})
+1 4 2 3
+(74, 30) (75, 24)
+(74, 30) (74, 24)
+0.03265867066466768 ('X is the cause of Y', -0.0942528735632184, -0.06159420289855072, {'number of nodes Y': 24, ' max number of edges Y': 276.0, 'number of edges Y': 33, 'number of edges Res Y': 50, 'edge density of Y': 0.11956521739130435, 'edge density of Res Y': 0.18115942028985507, 'number of nodes X': 30, ' max number of edges X': 435.0, 'number of edges X': 56, 'number of edges Res X': 97, 'edge density of X': 0.12873563218390804, 'edge density of Res X': 0.22298850574712645, 'tested regions': 'both'})
+1 4 2 4
+1 4 3 2
+(74, 30) (75, 27)
+(74, 30) (74, 27)
+0.11604283328421258 ('X is the cause of Y', -0.1103448275862069, 0.005698005698005687, {'number of nodes Y': 27, ' max number of edges Y': 351.0, 'number of edges Y': 79, 'number of edges Res Y': 77, 'edge density of Y': 0.22507122507122507, 'edge density of Res Y': 0.21937321937321938, 'number of nodes X': 30, ' max number of edges X': 435.0, 'number of edges X': 56, 'number of edges Res X': 104, 'edge density of X': 0.12873563218390804, 'edge density of Res X': 0.23908045977011494, 'tested regions': 'both'})
+1 4 3 3
+1 4 3 4
+1 4 4 2
+1 4 4 3
+1 4 4 4
+2 4 2 2
+2 4 2 3
+(74, 18) (75, 24)
+(74, 18) (74, 24)
+0.04440181869849388 ('X is the cause of Y', -0.09150326797385619, -0.047101449275362306, {'number of nodes Y': 24, ' max number of edges Y': 276.0, 'number of edges Y': 33, 'number of edges Res Y': 46, 'edge density of Y': 0.11956521739130435, 'edge density of Res Y': 0.16666666666666666, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 35, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.22875816993464052, 'tested regions': 'both'})
+2 4 2 4
+(74, 18) (75, 20)
+(74, 18) (74, 20)
+-0.0016167870657035066 ('Causal direction can not be inferred', -0.04575163398692808, -0.04736842105263159, {'number of nodes Y': 20, ' max number of edges Y': 190.0, 'number of edges Y': 35, 'number of edges Res Y': 44, 'edge density of Y': 0.18421052631578946, 'edge density of Res Y': 0.23157894736842105, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 28, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.1830065359477124, 'tested regions': 'both'})
+2 4 3 2
+(74, 18) (75, 27)
+(74, 18) (74, 27)
+0.10155857214680741 ('X is the cause of Y', -0.05882352941176469, 0.04273504273504272, {'number of nodes Y': 27, ' max number of edges Y': 351.0, 'number of edges Y': 79, 'number of edges Res Y': 64, 'edge density of Y': 0.22507122507122507, 'edge density of Res Y': 0.18233618233618235, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 30, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.19607843137254902, 'tested regions': 'both'})
+2 4 3 3
+(74, 18) (75, 18)
+(74, 18) (74, 18)
+0.0 ('Causal direction can not be inferred', -0.0392156862745098, -0.0392156862745098, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 19, 'number of edges Res Y': 25, 'edge density of Y': 0.12418300653594772, 'edge density of Res Y': 0.16339869281045752, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 27, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.17647058823529413, 'tested regions': 'both'})
+2 4 3 4
+(74, 18) (75, 15)
+(74, 18) (74, 15)
+0.017180205415499528 ('X is the cause of Y', -0.04575163398692808, -0.028571428571428553, {'number of nodes Y': 15, ' max number of edges Y': 105.0, 'number of edges Y': 16, 'number of edges Res Y': 19, 'edge density of Y': 0.1523809523809524, 'edge density of Res Y': 0.18095238095238095, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 28, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.1830065359477124, 'tested regions': 'both'})
+2 4 4 2
+(74, 18) (75, 18)
+(74, 18) (74, 18)
+0.013071895424836555 ('X is the cause of Y', -0.019607843137254888, -0.006535947712418333, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 53, 'number of edges Res Y': 54, 'edge density of Y': 0.3464052287581699, 'edge density of Res Y': 0.35294117647058826, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 24, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.1568627450980392, 'tested regions': 'both'})
+2 4 4 3
+(74, 18) (75, 12)
+(74, 18) (74, 12)
+-0.030303030303030304 ('Y is the cause of X', 0.0, -0.030303030303030304, {'number of nodes Y': 12, ' max number of edges Y': 66.0, 'number of edges Y': 11, 'number of edges Res Y': 13, 'edge density of Y': 0.16666666666666666, 'edge density of Res Y': 0.19696969696969696, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 21, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.13725490196078433, 'tested regions': 'both'})
+2 4 4 4
+(74, 18) (75, 10)
+(74, 18) (74, 10)
+0.061437908496732 ('X is the cause of Y', -0.0392156862745098, 0.0222222222222222, {'number of nodes Y': 10, ' max number of edges Y': 45.0, 'number of edges Y': 10, 'number of edges Res Y': 9, 'edge density of Y': 0.2222222222222222, 'edge density of Res Y': 0.2, 'number of nodes X': 18, ' max number of edges X': 153.0, 'number of edges X': 21, 'number of edges Res X': 27, 'edge density of X': 0.13725490196078433, 'edge density of Res X': 0.17647058823529413, 'tested regions': 'both'})
+3 4 2 2
+3 4 2 3
+3 4 2 4
+(74, 12) (75, 20)
+(74, 12) (74, 20)
+-0.04736842105263159 ('Y is the cause of X', 0.0, -0.04736842105263159, {'number of nodes Y': 20, ' max number of edges Y': 190.0, 'number of edges Y': 35, 'number of edges Res Y': 44, 'edge density of Y': 0.18421052631578946, 'edge density of Res Y': 0.23157894736842105, 'number of nodes X': 12, ' max number of edges X': 66.0, 'number of edges X': 13, 'number of edges Res X': 13, 'edge density of X': 0.19696969696969696, 'edge density of Res X': 0.19696969696969696, 'tested regions': 'both'})
+3 4 3 2
+3 4 3 3
+(74, 12) (75, 18)
+(74, 12) (74, 18)
+0.004159239453357111 ('Causal direction can not be inferred', -0.030303030303030304, -0.026143790849673193, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 19, 'number of edges Res Y': 23, 'edge density of Y': 0.12418300653594772, 'edge density of Res Y': 0.1503267973856209, 'number of nodes X': 12, ' max number of edges X': 66.0, 'number of edges X': 13, 'number of edges Res X': 15, 'edge density of X': 0.19696969696969696, 'edge density of Res X': 0.22727272727272727, 'tested regions': 'both'})
+3 4 3 4
+(74, 12) (75, 15)
+(74, 12) (74, 15)
+0.08917748917748919 ('X is the cause of Y', -0.06060606060606061, 0.02857142857142858, {'number of nodes Y': 15, ' max number of edges Y': 105.0, 'number of edges Y': 16, 'number of edges Res Y': 13, 'edge density of Y': 0.1523809523809524, 'edge density of Res Y': 0.12380952380952381, 'number of nodes X': 12, ' max number of edges X': 66.0, 'number of edges X': 13, 'number of edges Res X': 17, 'edge density of X': 0.19696969696969696, 'edge density of Res X': 0.25757575757575757, 'tested regions': 'both'})
+3 4 4 2
+(74, 12) (75, 18)
+(74, 12) (74, 18)
+0.06268568033273914 ('X is the cause of Y', -0.07575757575757575, -0.01307189542483661, {'number of nodes Y': 18, ' max number of edges Y': 153.0, 'number of edges Y': 53, 'number of edges Res Y': 55, 'edge density of Y': 0.3464052287581699, 'edge density of Res Y': 0.35947712418300654, 'number of nodes X': 12, ' max number of edges X': 66.0, 'number of edges X': 13, 'number of edges Res X': 18, 'edge density of X': 0.19696969696969696, 'edge density of Res X': 0.2727272727272727, 'tested regions': 'both'})
+3 4 4 3
+(74, 12) (75, 12)
+(74, 12) (74, 12)
+0.06060606060606061 ('X is the cause of Y', -0.04545454545454547, 0.015151515151515138, {'number of nodes Y': 12, ' max number of edges Y': 66.0, 'number of edges Y': 11, 'number of edges Res Y': 10, 'edge density of Y': 0.16666666666666666, 'edge density of Res Y': 0.15151515151515152, 'number of nodes X': 12, ' max number of edges X': 66.0, 'number of edges X': 13, 'number of edges Res X': 16, 'edge density of X': 0.19696969696969696, 'edge density of Res X': 0.24242424242424243, 'tested regions': 'both'})
+3 4 4 4
+(74, 12) (75, 10)
+(74, 12) (74, 10)
+0.037373737373737365 ('X is the cause of Y', -0.015151515151515166, 0.0222222222222222, {'number of nodes Y': 10, ' max number of edges Y': 45.0, 'number of edges Y': 10, 'number of edges Res Y': 9, 'edge density of Y': 0.2222222222222222, 'edge density of Res Y': 0.2, 'number of nodes X': 12, ' max number of edges X': 66.0, 'number of edges X': 13, 'number of edges Res X': 14, 'edge density of X': 0.19696969696969696, 'edge density of Res X': 0.21212121212121213, 'tested regions': 'both'})
+[0.16690115440115433, 0.02124505928853751, 0.17684861434861432, -0.0515245623941276, -0.0012759170653907498, 0.06482406482406482, -0.04795857737034208, -0.07186147186147183, -0.07851625498684324, 0.17945845004668537, 0.14271349565467215, 0.02432712215320912, 0.030827067669172925, 0.10472120472120469, -0.008216619981325862, -0.019047619047619035, 0.02623716153127917, -0.02164502164502166, -0.015326778484673204, -0.01278460101989512, 0.0029304029304029477, 0.055232349349996435, -0.0193140193140193, 0.0222222222222222, 0.032348111658456524, 0.03265867066466768, 0.11604283328421258, 0.04440181869849388, -0.0016167870657035066, 0.10155857214680741, 0.0, 0.017180205415499528, 0.013071895424836555, -0.030303030303030304, 0.061437908496732, -0.04736842105263159, 0.004159239453357111, 0.08917748917748919, 0.06268568033273914, 0.06060606060606061, 0.037373737373737365]
+0.03083977829956611
+0.06330480758405174
+24
+11
+======foo======
+((2, 4, 3, 2), -0.07851625498684324)
+((3, 2, 1, 2), 0.17945845004668537)
